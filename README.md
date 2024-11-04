@@ -47,5 +47,42 @@ The **Textbook Similarity Analyzer** is a C++ application designed to identify a
 
 1. **Clone the Repository**
 
-   ```bash
+```
+   bash
    git clone https://github.com/yourusername/textbook-similarity-analyzer.git
+```
+
+2.  **Navigate to the Project Directory**
+
+bash
+cd textbook-similarity-analyzer
+
+3. **Prepare the Text Files**
+
+```
+    Create a directory named Book-Txt within the project folder.
+    Place all .txt textbook files into this directory.
+```
+
+4. **Compile the Program**
+
+```
+bash
+g++ -std=c++17 -o similarity_checker similarity_checker.cpp
+```
+
+5. **Run the Program**
+
+```
+bash
+./similarity_checker
+```
+
+6. **Example Output**
+```
+Processing file: Mathematics.txt
+Processing file: Physics.txt
+Top 10 Similar Pairs of Textbooks:
+-----------------------------------
+1. "Mathematics.txt" <--> "Advanced Mathematics.txt" | Similarity Index: 0.35
+2. "Physics.txt" <--> "Applied Physics.txt" | Similarity Index: 0.30
