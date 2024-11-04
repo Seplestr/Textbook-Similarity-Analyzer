@@ -86,3 +86,14 @@ Top 10 Similar Pairs of Textbooks:
 -----------------------------------
 1. "Mathematics.txt" <--> "Advanced Mathematics.txt" | Similarity Index: 0.35
 2. "Physics.txt" <--> "Applied Physics.txt" | Similarity Index: 0.30
+```
+
+## Acknowledgement
+
+I would like to thank Dr. Sahu sir, my computer science professor at IIT-Guwahati and all the teaching staff for their support and guidance throughout this project.
+
+---
+
+**Programmed by Prabhav Pandey**  
+**College Registration No:** IITGCS_24061093
+
